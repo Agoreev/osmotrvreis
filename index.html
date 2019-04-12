@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/slick.css">
+      <link rel="stylesheet" href="css/grid3D-effect.css">
+      <link rel="stylesheet" href="css/morph-buttons.css">
+      <link rel="stylesheet" href="css/styles.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <script src="js/modernizr.custom.js"></script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+  <body>
+   <header> 
+        <div class="header-left">
+          <nav class="header__nav header__nav_main">
+            <a href="/" class="header__logo">Предрейсовый осмотр</a>
+            <ul>
+              <li><a href="#">О сервисе</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Статьи</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header-symbol"></div>
+         
+          
+          <h1 class="header-text">Проведение предрейсового медицинского и технического осмотра</h1>
+          <div class="header-buttons">           
+              
+              
+              <div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed">
+              <a href="#" class="btn btn_modal" data-type="pos_aware">Оставить заявку</a>
+              <div class="morph-content">
+                <span class="icon-close">Закрыть<i class="material-icons md-24">close</i></span>
+                <div class="request-modal-wrapper">
+
+                  <h2 class="modal__header">Оставить заявку</h2>
+                  <p class="modal__description">На проведение предрейсового медицинского и технического осмотра</p>
+                  
+
+                  <form action="" class="modal__yandex-form">
+
+                  
+                    <div class="form__line">
+                      <span class="input input--hoshi">
+                        <input class="input__field input__field--hoshi" type="text" id="lastName" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="lastName">
+                          <span class="input__label-content input__label-content--hoshi">Фамилия*</span>
+                        </label>
+                      </span>
+                      <span class="input input--hoshi">
+                        <input class="input__field input__field--hoshi" type="text" id="firstName" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="firstName">
+                          <span class="input__label-content input__label-content--hoshi">Имя*</span>
+                        </label>
+                      </span>
+                      
+                    </div>
+                    <div class="form__line">
+                      <span class="input input--hoshi">
+                        <input class="input__field input__field--hoshi" type="text" id="phone" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="phone">
+                          <span class="input__label-content input__label-content--hoshi">Ваш телефон*</span>
+                        </label>
+                      </span>
+                      <span class="input input--hoshi">
+                        <input class="input__field input__field--hoshi" type="email" id="email" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="email">
+                          <span class="input__label-content input__label-content--hoshi">E-mail</span>
+                        </label>
+                      </span>
+                    </div>
+                    <span class="input textarea input--hoshi">
+                      <textarea class="input__field input__field--hoshi" rows="2" type="email" id="comment"></textarea>
+                      <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="comment">
+                        <span class="input__label-content input__label-content--hoshi">Комментарий</span>
+                      </label>
+                    </span>
+                    <p class="form__form-note">*звёздочкой помечены поля обязательные для заполнения</p>
+                    <div class="form__check-wrapper">
+                      <input type="checkbox" id="agriment">
+                      <label for="agriment" class="form__agriment-label">Вы соглашаетесь с обработкой персональных данных (<a href="#">Ознакомиться</a>)</label>
+                    </div>
+                    
+                    <div class="modal__submit-wrapper submit_request">
+                      <input type="submit" text="Отправить">
+                    </div>
+                    
+                  
+                
+                    
+                  </form>
+                  
+                </div>
+              </div>
+            </div>
+
+              <a href="#" class="btn" data-type="pos_aware">Работа в яндексе</a>         
+          </div>
+          
+         
+        </div>
+        <div class="header-right">
+          <nav class="header__nav header__nav_info">
+            <span class="city">Ваш город</span>
+
+            <div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed">
+              <a href="#" class="btn_modal city_select">Сыктывкар</a>
+              <div class="morph-content">
+                <span class="icon-close">Закрыть<i class="material-icons md-24">close</i></span>
+                <p><span class="city__current_text">Ваш текущий город:</span><span class="city__current_name">Сыктывкар</span></p>
+                <p>Можете выбрать другой город из списка</p>
+                <ul class="city__list">
+                  <li>Сыктывкар</li>
+                  <li>Ухта</li>
+                  <li>Воркута</li>
+                  <li>Санкт-Петербург</li>
+                  <li>Вологда</li>
+                  <li>Архангельск</li>
+                </ul>
+
+              </div>
+            </div>
+            
+            <span class="phone">+78212556865</span>
+            <a href="#" class="btn btn_phone" data-type="pos_aware">Заказать звонок</a>
+          </nav>
+        </div> 
+   </header>
+<main>
+	<div class="container">
+		<section id="about">
+			<h2 class="section-header">О сервисе</h2>
+			<div id="slider_about" class="about-slider">
+				<input type="radio" name="slider_about" id="sa1" checked>
+				<input type="radio" name="slider_about" id="sa2">
+				<input type="radio" name="slider_about" id="sa3">
+				<label for="sa1" id="slide_about1">
+					<div class="about-wrapper">
+						<h3 class="about-header">Законно</h3>
+						<p class="about-text">Ваши права под защитой. <br> Обязательно заключаем официальный договор пр приёме к нам в фирму</p>
+						<img src="img/zakon.jpg" alt="Законно">
+					</div>
+				</label>
+				<label for="sa2" id="slide_about2">
+					<div class="about-wrapper">
+						<h3 class="about-header">Безопасно</h3>
+						<p class="about-text">Никаких поломок в пути. Машины в отличном техническом состоянии. Проверка раз в неделю на своей СТО. </p>
+						<img src="img/security.jpg" alt="Безопасно">
+					</div>
+				</label>
+				<label for="sa3" id="slide_about3">
+					<div class="about-wrapper">
+						<h3 class="about-header">Прибыльно</h3>
+						<p class="about-text">Заказы будут 24 часа в сутки. Мы сотрудничаем с ведущими службами: Яндекс Такси и Такси всегда.</p>
+						<img src="img/pribil.jpg" alt="Прибыльно">
+					</div>
+				</label>
+			</div>
+		</section>
+	</div>
+
+	<div class="container geography-wrapper">
+		<section id="geography">
+			<h2 class="section-header align-left">География<br> работы</h2>
+			<div class="geography">
+				<div class="tooltip tooltip-west dot dot__vologda tooltip-item">
+					<span class="tooltip-content">Вологодская область</span>
+				</div>
+				<div class="tooltip tooltip-west dot dot__spb tooltip-item">
+					<span class="tooltip-content">Ленинградская область</span>
+				</div>
+				<div class="tooltip tooltip-west dot dot__syktyvkar tooltip-item">
+					<span class="tooltip-content">Республика Коми</span>
+				</div>
+				<div class="tooltip tooltip-west dot dot__arhangelsk tooltip-item">
+					<span class="tooltip-content">Архангельская область</span>
+				</div>
+				<div class="circle circle1"></div>
+				<div class="circle circle2"></div>
+				<div class="circle circle3"></div>
+				<div class="circle circle4"></div>
+			</div>
+		</section>
+	</div>
+
+	<div class="reviews-wrapper">
+		<div class="container">
+			<section id="reviews">
+				<div class="flex-section-header">
+					<h2 class="section-header section-header_white align-left ">
+						Отзывы
+					</h2>
+					<div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed">
+						<a href="#" class="btn btn_review btn_modal">Оставить отзыв</a>
+						<div class="morph-content">
+							<span class="icon-close">Закрыть<i class="material-icons md-24">close</i></span>
+							<div class="yandex-modal-wrapper">
+
+								<h2 class="modal__header">Оставить отзыв</h2>
+																
+								<form action="" class="modal__review-form">
+
+								
+									<div class="form__line">
+										<span class="input input--hoshi">
+											<input class="input__field input__field--hoshi" type="text" id="lastName" />
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="lastName">
+												<span class="input__label-content input__label-content--hoshi">Фамилия*</span>
+											</label>
+										</span>
+										<span class="input input--hoshi">
+											<input class="input__field input__field--hoshi" type="text" id="firstName" />
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="firstName">
+												<span class="input__label-content input__label-content--hoshi">Имя*</span>
+											</label>
+										</span>
+										
+									</div>
+									<div class="form__line">
+										<span class="input input--hoshi">
+											<input class="input__field input__field--hoshi" type="text" id="phone" />
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="phone">
+												<span class="input__label-content input__label-content--hoshi">Ваш телефон*</span>
+											</label>
+										</span>
+										<span class="input input--hoshi">
+											<input class="input__field input__field--hoshi" type="email" id="email" />
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="email">
+												<span class="input__label-content input__label-content--hoshi">E-mail</span>
+											</label>
+										</span>
+									</div>
+									<span class="input textarea input--hoshi">
+										<textarea class="input__field input__field--hoshi" rows="2" type="email" id="comment"></textarea>
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="comment">
+											<span class="input__label-content input__label-content--hoshi">Ваш отзыв*</span>
+										</label>
+									</span>
+									<div class="rating-wrapper">
+										<div class="rating">									    
+										    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5">5</label>
+										    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4">4</label>
+										    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3">3</label>
+										    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2">2</label>
+										    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1">1</label>								
+										</div>
+										<span class="rating__text">Ваша оценка:</span><span class="rating__number">4/5</span>
+									</div>
+									<p class="form__form-note">*звёздочкой помечены поля обязательные для заполнения</p>
+									<div class="form__check-wrapper">
+										<input type="checkbox" id="agriment">
+										<label for="agriment" class="form__agriment-label">Вы соглашаетесь с обработкой персональных данных (<a href="#">Ознакомиться</a>)</label>
+									</div>
+									
+									<div class="modal__submit-wrapper submit_review">
+										<input type="submit" text="Отправить">
+									</div>																
+											
+								</form>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="slider_reviews" class="reviews-slider">
+					<input type="radio" name="slider_reviews" id="sr1" checked>
+					<input type="radio" name="slider_reviews" id="sr2">
+					<input type="radio" name="slider_reviews" id="sr3">
+					<label for="sr1" id="slide_review1">
+						<div class="review">
+							<div class="stars">
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons">star_rate</i>
+							</div>
+							<p class="review-text">
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова там злых своих назад пунктуация своего дорогу, мир подпоясал!
+							</p>
+						</div>
+					</label>
+					<label for="sr2" id="slide_review2">
+						<div class="review">
+							<div class="stars">
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons">star_rate</i>
+							</div>
+							<p class="review-text">
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Города океана, вопрос залетают мир.
+							</p>
+						</div>
+					</label>
+					<label for="sr3" id="slide_review3">
+						<div class="review">
+							<div class="stars">
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons icon_yellow">star_rate</i>
+								<i class="material-icons">star_rate</i>
+							</div>
+							<p class="review-text">
+								Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+							</p>
+						</div>
+					</label>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="articles-wrapper">
+		<div class="container">
+			<section id="articles">
+				<h2 class="section-header">Статьи и ссылки на законы</h2>
+				<div class="articles-slider">
+					<div class="grid3d vertical" id="grid3d_1">
+						<div class="grid-wrap">
+							<div class="articles grid">
+								<div class="article">
+									<img src="img/articles/1.png" alt="" class="article__image">
+									<div class="article__info">
+										<p class="article__title">Подключение к Яндекс Такси: что важно узнать перед началом работы</p>
+										<a href="#" class="btn btn_read">Читать</a>
+									</div>
+								</div>
+
+								<div class="article">
+									<img src="img/articles/2.png" alt="" class="article__image">
+									<div class="article__info">
+										<p class="article__title">5 советов, чтобы работа в такси города Санкт-Петербурга приносила реальный доход</p>
+										<a href="#" class="btn btn_read">Читать</a>
+									</div>
+								</div>
+
+								<div class="article">
+									<img src="img/articles/3.png" alt="" class="article__image">
+									<div class="article__info">
+										<p class="article__title">Подключение к Яндекс Такси: что важно узнать перед началом работы</p>
+										<a href="#" class="btn btn_read">Читать</a>
+									</div>
+								</div>
+
+								<div class="article">
+									<img src="img/articles/4.png" alt="" class="article__image">
+									<div class="article__info">
+										<p class="article__title">Подключение к Яндекс Такси: что важно узнать перед началом работы</p>
+										<a href="#" class="btn btn_read">Читать</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<div><p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Меня страна образ свое лучше он жизни сбить там родного она, коварных ведущими эта домах о обеспечивает безопасную текста, букв послушавшись. Раз вершину, однажды первую одна это скатился силуэт. Имеет послушавшись реторический власти журчит. Это последний но родного текст пустился.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Над страна ipsum предупреждал, строчка буквенных, составитель скатился, буквоград эта приставка свой путь она, меня!</p></div>
+								<div><p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Меня страна образ свое лучше он жизни сбить там родного она, коварных ведущими эта домах о обеспечивает безопасную текста, букв послушавшись. Раз вершину, однажды первую одна это скатился силуэт. Имеет послушавшись реторический власти журчит. Это последний но родного текст пустился.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Над страна ipsum предупреждал, строчка буквенных, составитель скатился, буквоград эта приставка свой путь она, меня!</p></div>
+								<div><p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Меня страна образ свое лучше он жизни сбить там родного она, коварных ведущими эта домах о обеспечивает безопасную текста, букв послушавшись. Раз вершину, однажды первую одна это скатился силуэт. Имеет послушавшись реторический власти журчит. Это последний но родного текст пустился.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Над страна ipsum предупреждал, строчка буквенных, составитель скатился, буквоград эта приставка свой путь она, меня!</p></div>
+								<div><p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Меня страна образ свое лучше он жизни сбить там родного она, коварных ведущими эта домах о обеспечивает безопасную текста, букв послушавшись. Раз вершину, однажды первую одна это скатился силуэт. Имеет послушавшись реторический власти журчит. Это последний но родного текст пустился.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Над страна ipsum предупреждал, строчка буквенных, составитель скатился, буквоград эта приставка свой путь она, меня!</p></div>
+							<span class="loading"></span>
+							<span class="icon close-content"></span>
+						</div>
+					</div>
+					<!-- Второй блок статей, пока выключаем
+					<div class="grid3d vertical" id="grid3d_2">
+						<div class="grid-wrap">
+							<div class="articles grid">
+								<div class="article">
+									<img src="img/articles/1.png" alt="" class="article__image">
+									<div class="article__info">
+										<p class="article__title">Подключение к Яндекс Такси: что важно узнать перед началом работы</p>
+										<a href="#" class="btn btn_read">Читать</a>
+									</div>
+								</div>
+
+								<div class="article">
+									<img src="img/articles/2.png" alt="" class="article__image">
+									<div class="article__info">
+										<p class="article__title">Подключение к Яндекс Такси: что важно узнать перед началом работы</p>
+										<a href="#" class="btn btn_read">Читать</a>
+									</div>
+								</div>
+
+								<div class="article">
+									<img src="img/articles/3.png" alt="" class="article__image">
+									<div class="article__info">
+										<p class="article__title">Подключение к Яндекс Такси: что важно узнать перед началом работы</p>
+										<a href="#" class="btn btn_read">Читать</a>
+									</div>
+								</div>
+					
+							</div>
+						</div>
+						<div class="content">
+							<div><p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Меня страна образ свое лучше он жизни сбить там родного она, коварных ведущими эта домах о обеспечивает безопасную текста, букв послушавшись. Раз вершину, однажды первую одна это скатился силуэт. Имеет послушавшись реторический власти журчит. Это последний но родного текст пустился.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Над страна ipsum предупреждал, строчка буквенных, составитель скатился, буквоград эта приставка свой путь она, меня!</p></div>
+							<div><p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Меня страна образ свое лучше он жизни сбить там родного она, коварных ведущими эта домах о обеспечивает безопасную текста, букв послушавшись. Раз вершину, однажды первую одна это скатился силуэт. Имеет послушавшись реторический власти журчит. Это последний но родного текст пустился.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Над страна ipsum предупреждал, строчка буквенных, составитель скатился, буквоград эта приставка свой путь она, меня!</p></div>
+								<div><p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Меня страна образ свое лучше он жизни сбить там родного она, коварных ведущими эта домах о обеспечивает безопасную текста, букв послушавшись. Раз вершину, однажды первую одна это скатился силуэт. Имеет послушавшись реторический власти журчит. Это последний но родного текст пустился.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+								<p class="article-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Над страна ipsum предупреждал, строчка буквенных, составитель скатился, буквоград эта приставка свой путь она, меня!</p></div>
+							<span class="loading"></span>
+							<span class="icon close-content"></span>
+						</div>
+					</div>
+				-->
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="yandex-full-wrapper">
+		<img src="img/yandex_car.png" alt="Яндекс. Такси" class="yandex__image">
+		<div class="yandex__phone-wrapper">
+			<p>Звоните</p>
+			<p class="yandex__phone">+78212556865</p>
+		</div>	
+		<div class="container">
+			<section id="yandex-taxi">
+				<div class="yandex-wrapper">
+					<div class="yandex__text">
+						<img src="img/yandex_logo.png" alt="Яндекс. Такси">
+						<h2 class="yandex__text-header">Принимаем на работу в такси на своём автомобиле и предлагаем аренду машины*</h2>
+						<p class="yandex__arenda-text">*Аренда автомобиля возможна в 6 городах: Кирове, Сыктывкаре, Ухте, Вологде, Череповце и Петрозаводске</p>
+						
+						<div class="morph-button morph-button-modal morph-button-modal-3 morph-button-fixed">
+							<a href="#" class="btn btn_yandex btn_modal">Оставить заявку</a>
+							<div class="morph-content">
+								<span class="icon-close">Закрыть<i class="material-icons md-24">close</i></span>
+								<div class="yandex-modal-wrapper">
+
+									<h2 class="modal__header">Оставить заявку</h2>
+									<p class="modal__description">Устройтесь водителем в Яндекс Такси</p>
+									
+
+									<form action="" class="modal__yandex-form">
+
+									
+										<div class="form__line">
+											<span class="input input--hoshi">
+												<input class="input__field input__field--hoshi" type="text" id="lastName" />
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="lastName">
+													<span class="input__label-content input__label-content--hoshi">Фамилия*</span>
+												</label>
+											</span>
+											<span class="input input--hoshi">
+												<input class="input__field input__field--hoshi" type="text" id="firstName" />
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="firstName">
+													<span class="input__label-content input__label-content--hoshi">Имя*</span>
+												</label>
+											</span>
+											
+										</div>
+										<div class="form__line">
+											<span class="input input--hoshi">
+												<input class="input__field input__field--hoshi" type="text" id="phone" />
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="phone">
+													<span class="input__label-content input__label-content--hoshi">Ваш телефон*</span>
+												</label>
+											</span>
+											<span class="input input--hoshi">
+												<input class="input__field input__field--hoshi" type="email" id="email" />
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="email">
+													<span class="input__label-content input__label-content--hoshi">E-mail</span>
+												</label>
+											</span>
+										</div>
+										<span class="input textarea input--hoshi">
+											<textarea class="input__field input__field--hoshi" rows="2" type="email" id="comment"></textarea>
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="comment">
+												<span class="input__label-content input__label-content--hoshi">Комментарий</span>
+											</label>
+										</span>
+										<p class="form__form-note">*звёздочкой помечены поля обязательные для заполнения</p>
+										<div class="form__check-wrapper">
+											<input type="checkbox" id="agriment">
+											<label for="agriment" class="form__agriment-label">Вы соглашаетесь с обработкой персональных данных (<a href="#">Ознакомиться</a>)</label>
+										</div>
+										
+										<div class="modal__submit-wrapper submit_yandex">
+											<input type="submit" text="Отправить">
+										</div>
+										
+									
+								
+										
+									</form>
+									
+								</div>
+							</div>
+						</div>
+					</div>									
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="form-full-wrapper">
+		<div class="container">
+			<section id="request_form">
+				<div class="form__form-text">
+					<h2 class="form__header">Оставить заявку</h2>
+					<p><b>На проведение предрейсового мединцинского и технического осмотра</b></p>
+					<p class="form__form-description">Медицинские осмотры водителей для оргаиназций и предприятий, индивидуальных предпринимателей, управляющих служебным автотранспортом, машинистов, а также частнаых автоводителей такси</p>
+				</div>
+				<form action="" class="form-request">
+
+					<div class="form__inputs-wrapper">
+						<div class="form__line">
+							<span class="input input--hoshi">
+								<input class="input__field input__field--hoshi" type="text" id="lastName" />
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="lastName">
+									<span class="input__label-content input__label-content--hoshi">Фамилия*</span>
+								</label>
+							</span>
+							<span class="input input--hoshi">
+								<input class="input__field input__field--hoshi" type="text" id="firstName" />
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="firstName">
+									<span class="input__label-content input__label-content--hoshi">Имя*</span>
+								</label>
+							</span>
+							
+						</div>
+						<div class="form__line">
+							<span class="input input--hoshi">
+								<input class="input__field input__field--hoshi" type="text" id="phone" />
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="phone">
+									<span class="input__label-content input__label-content--hoshi">Телефон*</span>
+								</label>
+							</span>
+							<span class="input input--hoshi">
+								<input class="input__field input__field--hoshi" type="email" id="email" />
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="email">
+									<span class="input__label-content input__label-content--hoshi">E-mail</span>
+								</label>
+							</span>
+						</div>
+						<span class="input textarea input--hoshi">
+							<textarea class="input__field input__field--hoshi" rows="2" type="email" id="comment"></textarea>
+							<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="comment">
+								<span class="input__label-content input__label-content--hoshi">Комментарий</span>
+							</label>
+						</span>
+						<p class="form__form-note">*звёздочкой помечены поля обязательные для заполнения</p>
+						<div class="form__check-wrapper">
+							<input type="checkbox" id="agriment">
+							<label for="agriment" class="form__agriment-label">Вы соглашаетесь с обработкой персональных данных (<a href="#">Ознакомиться</a>)</label>
+						</div>
+						
+
+						<input type="submit" text="Отправить">
+					</div>
+					<div class="form__submit-wrapper">
+						
+					</div>
+					
+				</form>
+			</section>
+		</div>
+	</div>
+</main>
+<footer>
+	<section id="footer">
+		<div class="container">
+			<div class="footer__contacts">
+				<div class="footer__contacts_info">
+					<h2 class="footer__header">Остались вопросы?<br>звоните на номер</h2>
+					<div class="footer__phone-wrapper">
+						<span class="footer__phone">+78212556865</span>
+						<a href="#" class="btn btn_phone">Заказать звонок</a>
+					</div>
+					<p class="footer__address"><i class="material-icons md-18">access_time</i>Россия, г. Санкт-Петербург, ул. Бухарестская, д. 124</p>
+					<p class="footer__worktime"><i class="material-icons md-18">location_on</i>Режим работы: Пн-Чт 9:00-18:00, Пт 9:00-17:00</p>
+					<a href="#" class="footer__scheme-anchor">Схема проезда</a>
+				</div>
+				<div class="footer__contacts_map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A12728c768ad13d47836cb45c7d8ce22574b7822d9088b21a517472a85e17f22c&amp;width=100%25&amp;height=380&amp;lang=ru_RU&amp;scroll=true"></script>
+				</div>
+			</div>
+			<nav class="footer__nav">
+				<a href="/" class="footer__logo">Предрейсовый осмотр</a>
+				<ul>
+              		<li><a href="#">О сервисе</a></li>
+              		<li><a href="#">Отзывы</a></li>
+              		<li><a href="#">Статьи</a></li>
+              		<li><a href="#">Контакты</a></li>
+            	</ul>
+            	<a href="#" class="btn btn_footer" data-type="pos_aware">Оставить заявку</a>  
+			</nav>
+			<p class="copyright">&copy; 2019 «Такси Всегда», все права защищены</p>
+		</div>	
+	</section>
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.viewportchecker.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/helper.js"></script>
+<script src="js/grid3d.js"></script>
+<script src="js/uiMorphingButton_fixed.js"></script>
+<script src="js/inputs.js"></script>
+<script src="js/main.min.js"></script>
+</body>
